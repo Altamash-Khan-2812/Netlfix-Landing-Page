@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  background-image: url(../img/hero.jpg);
+  height: 80vh;
+}
