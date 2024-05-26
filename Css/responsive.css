@@ -1,0 +1,38 @@
+@media (max-width: 64em) {
+    body{
+        text-align: center;
+    }
+
+    .heading-primary{
+        font-size: 40px;
+    }
+
+    .mb{
+        font-size: 18px;
+    }
+}
+
+
+
+
+@media (max-width:48em) {
+    .nav-bar{
+        padding: 10px;
+    }
+
+    .logo{
+        font-size: 30px;
+    }
+
+    .heading-primary{
+        font-size: 35px;
+    }
+
+    .option{
+        font-size: 17px;
+    }
+
+    .info{
+        flex-direction: column;
+    }
+}
