@@ -149,3 +149,31 @@ select::-webkit-expand {
 .hero-icon{
   margin-bottom: -4px;
 }
+
+.seperation{
+  border: 6px solid #495057;
+}
+
+
+
+/* **************** */
+/* SECTION CHARACTERISTIC */
+/* **************** */
+
+.characteristic{
+  background-color: #000;
+}
+
+.subheading{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.text{
+  color: #fff;
+}
+
+.col{
+  display: flex;
+}
