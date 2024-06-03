@@ -12,7 +12,7 @@ html{
   background-size: cover;
   background-position: center;
   height: 100%;
-  min-height:100vh
+  min-height:95vh
   }
 
 .gradient{
@@ -160,20 +160,7 @@ select::-webkit-expand {
 /* SECTION CHARACTERISTIC */
 /* **************** */
 
-.characteristic{
+.Features{
   background-color: #000;
-}
-
-.subheading{
   color: #fff;
-  font-size: 40px;
-  font-weight: 600;
-}
-
-.text{
-  color: #fff;
-}
-
-.col{
-  display: flex;
 }
