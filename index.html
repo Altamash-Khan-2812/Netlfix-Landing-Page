@@ -3,56 +3,178 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
 
     <title>Netflix India &mdash; Watch Tv Shows</title>
-    <link
-      rel="icon"
-      href="Img/netflix-icon.jpg"
-    />
+    <link rel="icon" href="Img/netflix-icon.jpg" />
     <link rel="stylesheet" href="Css/style.css" />
     <link rel="stylesheet" href="Css/responsive.css" />
   </head>
+
   <body>
     <section class="hero-section gradient">
       <div class="nav-bar">
         <p class="logo">NETFLIX</p>
         <div>
-        <div class="lang">
-        <ion-icon name="language-outline" class="lang-icon"></ion-icon>
-          <select>
-            <option value="English">English</option>
-            <option value="Hindi">Hindi</option>
-          </select>
+          <div class="lang">
+            <ion-icon name="language-outline" class="lang-icon"></ion-icon>
+            <select>
+              <option value="English">English</option>
+              <option value="Hindi">Hindi</option>
+            </select>
+          </div>
+          <button class="sign-btn">Sign In</button>
         </div>
-        <button class="sign-btn">Sign In</button>
-      </div>
-         
       </div>
 
       <div class="hero-text">
-      <h1 class="heading-primary">Unlimited movies, TV shows and more</h1>
-      <p class="option margin">Watch anywhere. Cancel anytime.</p>
-      <p class="option mb">Ready to watch? Enter your email or mobile number to create or restart your membership.
-      </p>
-      <div class="info">
-      <input type="text" class="hero-input" placeholder="Email or mobile number" required>
-      <button class="hero-btn">Get Started <ion-icon class="hero-icon" name="chevron-forward-outline"></ion-icon></button>
-    </div>
-    </div>
+        <h1 class="heading-primary">Unlimited movies, TV shows and more</h1>
+        <p class="option margin">Watch anywhere. Cancel anytime.</p>
+        <p class="option mb">
+          Ready to watch? Enter your email or mobile number to create or restart
+          your membership.
+        </p>
+        <div class="info">
+          <input
+            type="text"
+            class="hero-input"
+            placeholder="Email or mobile number"
+            required
+          />
+          <button class="hero-btn">
+            Get Started
+            <ion-icon
+              class="hero-icon"
+              name="chevron-forward-outline"
+            ></ion-icon>
+          </button>
+        </div>
+      </div>
     </section>
 
     <div class="seperation"></div>
 
     <section class="Features">
-      <div class="text-col">
-      <h3 class="subheading">Enjoy on your TV</h3>
-      <p class="feature-text">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+      <div class="feature-1">
+        <div class="text-col">
+          <h3 class="subheading">Enjoy on your TV</h3>
+          <p class="feature-text">
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, <br />
+            Apple TV, Blu-ray players and more.
+          </p>
+        </div>
+        <div class="img-col">
+          <img src="Img/tv.png" alt="tv image" class="tv-img" />
+          <video class="video" autoplay muted loop>
+            <source src="Img/preview.m4v" />
+          </video>
+        </div>
       </div>
-      <div class="img-col">
-        <img src="Img/tv.png" alt="">
+      <div class="seperation"></div>
+
+      <div class="feature-2">
+        <div class="img-col">
+          <img src="Img/download.jpg" alt="Download Example" class="img" />
+          <div class="download-preview">
+            <img
+              src="Img/boxshot.png"
+              alt="stranger things movie"
+              class="download-movie"
+            />
+            <div>
+              <p class="preview-text">Stranger Things</p>
+              <p class="preview-download">Downloading...</p>
+            </div>
+            <ion-icon
+              name="arrow-down-outline"
+              class="download-icon"
+            ></ion-icon>
+          </div>
+        </div>
+        <div class="text-col">
+          <h3 class="subheading">
+            Download your shows <br />
+            to watch offline
+          </h3>
+          <p class="feature-text">
+            Save your favourites easily and always have something <br />
+            to watch.
+          </p>
+        </div>
       </div>
+      <div class="seperation"></div>
+
+      <div class="feature-3">
+        <div class="text-col">
+          <h3 class="subheading">Watch everywhere</h3>
+          <p class="feature-text">
+            Stream unlimited movies and TV shows on your phone, <br />
+            tablet, laptop, and TV.
+          </p>
+        </div>
+        <div class="img-col">
+          <img src="Img/video.png" alt="Tv image" class="tv-frame" />
+          <video autoplay loop muted class="ayan">
+            <source src="Img/video.m4v" />
+          </video>
+        </div>
+      </div>
+      <div class="seperation"></div>
+
+      <div class="feature-4">
+        <div class="img-col">
+          <img
+            src="Img/children.png"
+            alt="Children Cartoon"
+            class="Child-img"
+          />
+        </div>
+        <div class="text-col">
+          <h3 class="subheading">Create profiles for kids</h3>
+          <p class="feature-text">
+            Send children on adventures with their favourite characters in
+            <br />
+            a space made just for them—free with your membership.
+          </p>
+        </div>
+      </div>
+      <div class="seperation"></div>
     </section>
+
+    <footer class="footer">
+      <p class="call">Questions? Call 000-800-919-1694</p>
+      <div class="footer-links">
+        <a href="">FAQ</a>
+        <a href="">Help Centre</a>
+        <a href="">Account</a>
+        <a href="">Media Centre</a>
+        <a href="">Investor Relations</a>
+        <a href="">Jobs</a>
+        <a href="">Ways to Watch</a>
+        <a href="">Terms of Use</a>
+        <a href="">Privacy</a>
+        <a href="">Cookie Preferences</a>
+        <a href="">Corporate Information</a>
+        <a href="">Contact Us</a>
+        <a href="">Speed Test</a>
+        <a href="">Legal Notices</a>
+        <a href="">Only on Netflix</a>
+      </div>
+      <div class="lang">
+        <ion-icon name="language-outline" class="lang-icon"></ion-icon>
+        <select>
+          <option value="English">English</option>
+          <option value="Hindi">Hindi</option>
+        </select>
+      </div>
+      <p class="ind">Netflix India</p>
+    </footer>
   </body>
 </html>
