@@ -261,4 +261,40 @@ select::-webkit-expand {
 .tv-frame {
   position: relative;
   z-index: 10;
+  width: 100%;
+}
+
+.Child-img {
+  width: 100%;
+}
+
+.footer {
+  padding: 50px 250px;
+  background-color: #000;
+  text-align: left;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 15px;
+  margin-bottom: 28px;
+}
+
+.footer a {
+  color: #868e96;
+  font-size: 15px;
+}
+
+.call {
+  color: #868e96;
+  margin-bottom: 25px;
+}
+
+.ind {
+  color: #868e96;
+}
+
+.footer .lang {
+  margin-bottom: 20px;
 }
