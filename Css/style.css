@@ -268,6 +268,49 @@ select::-webkit-expand {
   width: 100%;
 }
 
+/* ********** */
+/* ACCORDION */
+/* ********** */
+.accordion {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 250px;
+  text-align: center;
+}
+
+.accordion-questions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.accordion-heading {
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 18px;
+}
+
+.question {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #333333;
+  padding: 18px 26px;
+}
+
+.question:hover {
+  background-color: #4d4d4d;
+  cursor: pointer;
+}
+
+.plus-icon {
+  font-weight: 600;
+}
+
+/* ******** */
+/* FOOTER */
+/* ******** */
+
 .footer {
   padding: 50px 250px;
   background-color: #000;
