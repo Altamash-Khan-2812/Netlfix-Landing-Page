@@ -56,6 +56,14 @@
     text-align: left;
     padding: 100px;
   }
+
+  .accordion{
+    padding: 50px 150px;
+  }
+
+  .accordion-heading{
+    font-size: 30px;
+  }
 }
 
 /* ***************** */
@@ -109,6 +117,10 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 22px;
   }
+
+  .accordion{
+    padding: 50px 10px;
+  }
 }
 
 /* ************* */
@@ -129,10 +141,19 @@
     height: 45px;
   }
 
-  .feature-text {
-  }
-
   .subheading {
     font-size: 25px;
+  }
+
+  .footer-links{
+    padding: 0 20px;
+  }
+
+  .accordion-heading{
+    font-size: 20px;
+  }
+
+  .question{
+    font-size: 15px;
   }
 }
