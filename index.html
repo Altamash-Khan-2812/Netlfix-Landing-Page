@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected ...
+    "
+    />
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -24,11 +29,17 @@
         <p class="logo">NETFLIX</p>
         <div>
           <div class="lang">
-            <ion-icon name="language-outline" class="lang-icon"></ion-icon>
-            <select>
-              <option value="English">English</option>
-              <option value="Hindi">Hindi</option>
-            </select>
+            <ion-icon
+              name="language-outline"
+              class="lang-icon"
+              aria-hidden="true"
+            ></ion-icon>
+            <label>
+              <select aria-label="Choose your language">
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+              </select>
+            </label>
           </div>
           <button class="sign-btn">Sign In</button>
         </div>
@@ -45,10 +56,11 @@
           <input
             type="text"
             class="hero-input"
+            aria-label="Email or mobile number"
             placeholder="Email or mobile number"
             required
           />
-          <button class="hero-btn">
+          <button class="hero-btn" aria-label="Get started">
             Get Started
             <ion-icon
               class="hero-icon"
@@ -71,8 +83,17 @@
           </p>
         </div>
         <div class="img-col">
-          <img src="Img/tv.png" alt="tv image" class="tv-img" />
-          <video class="video" autoplay muted loop>
+          <picture>
+            <source srcset="Img/tv.webp" type="image/webp" />
+            <img src="Img/tv.png" alt="tv image" class="tv-img" />
+          </picture>
+          <video
+            class="video"
+            autoplay
+            muted
+            loop
+            aria-label="A preview of Netflix content playing on a TV"
+          >
             <source src="Img/preview.m4v" />
           </video>
         </div>
@@ -81,8 +102,18 @@
 
       <div class="feature-2">
         <div class="img-col">
-          <img src="Img/download.jpg" alt="Download Example" class="img" />
-          <div class="download-preview">
+          <picture>
+            <source srcset="Img/download.webp" type="image/webp" />
+            <img
+              src="Img/download.jpg"
+              alt="Downloading Netflix content on a device"
+              class="img"
+            />
+          </picture>
+          <div
+            class="download-preview"
+            aria-label="Download preview for Stranger Things"
+          >
             <img
               src="Img/boxshot.png"
               alt="stranger things movie"
@@ -120,7 +151,11 @@
           </p>
         </div>
         <div class="img-col">
-          <img src="Img/video.png" alt="Tv image" class="tv-frame" />
+          <img
+            src="Img/video.png"
+            alt="Netflix streaming on multiple devices"
+            class="tv-frame"
+          />
           <video autoplay loop muted class="ayan">
             <source src="Img/video.m4v" />
           </video>
@@ -130,11 +165,14 @@
 
       <div class="feature-4">
         <div class="img-col">
-          <img
-            src="Img/children.png"
-            alt="Children Cartoon"
-            class="Child-img"
-          />
+          <picture>
+            <source srcset="Img/children.webp" type="image/webp" />
+            <img
+              src="Img/children.jpg"
+              alt="Netflix Kids profile with cartoons"
+              class="Child-img"
+            />
+          </picture>
         </div>
         <div class="text-col">
           <h3 class="subheading">Create profiles for kids</h3>
@@ -266,7 +304,6 @@
             </p>
           </div>
         </div>
-        
       </div>
     </section>
 
@@ -274,29 +311,33 @@
 
     <footer class="footer">
       <p class="call">Questions? Call 000-800-919-1694</p>
-      <div class="footer-links">
-        <a href="">FAQ</a>
-        <a href="">Help Centre</a>
-        <a href="">Account</a>
-        <a href="">Media Centre</a>
-        <a href="">Investor Relations</a>
-        <a href="">Jobs</a>
-        <a href="">Ways to Watch</a>
-        <a href="">Terms of Use</a>
-        <a href="">Privacy</a>
-        <a href="">Cookie Preferences</a>
-        <a href="">Corporate Information</a>
-        <a href="">Contact Us</a>
-        <a href="">Speed Test</a>
-        <a href="">Legal Notices</a>
-        <a href="">Only on Netflix</a>
-      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#" aria-label="Frequently Asked Questions">FAQ</a>
+        <a href="#" aria-label="Help Centre">Help Centre</a>
+        <a href="#" aria-label="Account Details">Account</a>
+        <a href="#" aria-label="Media Centre">Media Centre</a>
+        <a href="#" aria-label="Investor Relations">Investor Relations</a>
+        <a href="#" aria-label="Job Opportunities">Jobs</a>
+        <a href="#" aria-label="Ways to Watch Netflix">Ways to Watch</a>
+        <a href="#" aria-label="Terms of Use">Terms of Use</a>
+        <a href="#" aria-label="Privacy Policy">Privacy</a>
+        <a href="#" aria-label="Cookie Preferences">Cookie Preferences</a>
+        <a href="#" aria-label="Corporate Information">Corporate Information</a>
+        <a href="#" aria-label="Contact Us">Contact Us</a>
+        <a href="#" aria-label="Speed Test">Speed Test</a>
+        <a href="#" aria-label="Legal Notices">Legal Notices</a>
+        <a href="#" aria-label="Exclusive Content Only on Netflix"
+          >Only on Netflix</a
+        >
+      </nav>
       <div class="lang">
         <ion-icon name="language-outline" class="lang-icon"></ion-icon>
-        <select>
-          <option value="English">English</option>
-          <option value="Hindi">Hindi</option>
-        </select>
+        <label>
+          <select aria-label="Language selection">
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+          </select>
+        </label>
       </div>
       <p class="ind">Netflix India</p>
     </footer>
