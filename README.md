@@ -4,7 +4,7 @@ A modern, responsive landing page inspired by Netflix, built with HTML, CSS, and
 
 ## Preview
 
-You can see the animation live <a href="https://altamash-homepage.netlify.app/"> HERE </a>
+You can see the animation live <a href="https://altamash-landingpage.netlify.app/"> HERE </a>
 
 ## Features
 
